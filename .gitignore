@@ -1,0 +1,28 @@
+# SSH private keys
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.key
+
+# SSH configuration
+.ssh/
+authorized_keys
+
+# Secrets
+.env
+.env.*
+*.secret
+*.token
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Windows
+Thumbs.db
+Desktop.ini
